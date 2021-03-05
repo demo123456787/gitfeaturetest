@@ -29,6 +29,10 @@ module "cloudfront" {
   source  = "terraform-aws-modules/cloudfront/aws"
   version = "1.8.0"
   # insert the 9 required variables here
+
+  name = ""
+  vpc_id = ""
   name = "demo_cloudfront"
+
 
 }
