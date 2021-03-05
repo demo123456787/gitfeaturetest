@@ -21,6 +21,7 @@ module "s3-bucket" {
   version = "1.20.0"
   # insert the 5 required variables here
 
+
 module "cloudfront" {
   source  = "terraform-aws-modules/cloudfront/aws"
   version = "1.8.0"
