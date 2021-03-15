@@ -24,7 +24,7 @@ module "s3-bucket" {
   # insert the 5 required variables here
 
   vpc_id = ""
-
+}
 
 
 module "cloudfront" {
