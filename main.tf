@@ -38,3 +38,26 @@ module "cloudfront" {
 
 
 }
+module "cloudfront2" {
+  source  = "terraform-aws-modules/cloudfront/aws"
+  version = "1.8.0"
+  # insert the 9 required variables here
+
+  name = ""
+  vpc_id = ""
+  name = "demo_cloudfront"
+
+
+}
+
+module "cloudfront3" {
+  source  = "terraform-aws-modules/cloudfront/aws"
+  version = "1.8.0"
+  # insert the 9 required variables here
+
+  name = ""
+  vpc_id = ""
+  name = "demo_cloudfront"
+
+
+}
