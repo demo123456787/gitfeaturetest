@@ -1,3 +1,4 @@
+TEST
 module "ec2-instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "2.17.0"
@@ -59,5 +60,7 @@ module "cloudfront3" {
   vpc_id = ""
   name = "demo_cloudfront"
 
+
+}
 
 }
