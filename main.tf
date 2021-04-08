@@ -1,3 +1,4 @@
+TEST
 module "ec2-instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "2.17.0"
@@ -22,7 +23,7 @@ module "s3-bucket" {
   # insert the 5 required variables here
 
   vpc_id = ""
-
+}
 
 
 module "cloudfront" {
@@ -30,5 +31,30 @@ module "cloudfront" {
   version = "1.8.0"
   # insert the 9 required variables here
   name = "demo_cloudfront"
+
+}
+module "cloudfront2" {
+  source  = "terraform-aws-modules/cloudfront/aws"
+  version = "1.8.0"
+  # insert the 9 required variables here
+
+  name = ""
+  vpc_id = ""
+  name = "demo_cloudfront"
+
+
+}
+
+module "cloudfront3" {
+  source  = "terraform-aws-modules/cloudfront/aws"
+  version = "1.8.0"
+  # insert the 9 required variables here
+
+  name = ""
+  vpc_id = ""
+  name = "demo_cloudfront"
+
+
+}
 
 }
