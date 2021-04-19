@@ -7,7 +7,7 @@ module "ec2-instance" {
   key_name = "demo2"
   ami = ""
   name = ""
-
+gfhfhgfghfhgfghfghfghfghfghfghfhgfhgfhgfghfghfghf
 }
 module "security-group" {
   source  = "terraform-aws-modules/security-group/aws"
