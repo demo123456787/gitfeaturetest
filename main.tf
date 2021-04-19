@@ -17,8 +17,10 @@ module "security-group" {
   name = ""
 }
 
+
   DEMO11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
   
+
 module "s3-bucket" {
   source  = "terraform-aws-modules/s3-bucket/aws"
   version = "1.20.0"
@@ -32,11 +34,7 @@ module "cloudfront" {
   source  = "terraform-aws-modules/cloudfront/aws"
   version = "1.8.0"
   # insert the 9 required variables here
-
-  name = ""
-  vpc_id = ""
   name = "demo_cloudfront"
-
 
 }
 module "cloudfront2" {
