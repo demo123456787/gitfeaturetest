@@ -7,7 +7,7 @@ module "ec2-instance" {
   key_name = "demo2"
   ami = ""
   name = ""
-
+gfhfhgfghfhgfghfghfghfghfghfghfhgfhgfhgfghfghfghf
 }
 module "security-group" {
   source  = "terraform-aws-modules/security-group/aws"
@@ -17,6 +17,10 @@ module "security-group" {
   name = ""
 }
 
+
+  DEMO11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+  
+
 module "s3-bucket" {
   source  = "terraform-aws-modules/s3-bucket/aws"
   version = "1.20.0"
@@ -24,7 +28,7 @@ module "s3-bucket" {
 
   vpc_id = ""
 }
-
+psg]sinsoingds]gnadspi]ngosdngdsiognosingoisnsoaignso
 
 module "cloudfront" {
   source  = "terraform-aws-modules/cloudfront/aws"
