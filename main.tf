@@ -1,3 +1,4 @@
+TEST
 module "ec2-instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "2.17.0"
@@ -6,7 +7,7 @@ module "ec2-instance" {
   key_name = "demo2"
   ami = ""
   name = ""
-
+gfhfhgfghfhgfghfghfghfghfghfghfhgfhgfhgfghfghfghf
 }
 module "security-group" {
   source  = "terraform-aws-modules/security-group/aws"
@@ -24,7 +25,7 @@ module "s3-bucket" {
   # insert the 5 required variables here
 
   vpc_id = ""
-
+}
 
 
 module "cloudfront" {
@@ -59,5 +60,7 @@ module "cloudfront3" {
   vpc_id = ""
   name = "demo_cloudfront"
 
+
+}
 
 }
