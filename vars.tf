@@ -4,3 +4,4 @@ variable "auto_scaled_ami" {
   type = string
   description = "This is the AMI name that will be used for Autoscaling template"
 }asdasda
+ascasc
